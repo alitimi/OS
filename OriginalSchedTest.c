@@ -47,4 +47,8 @@ int main(void){
   averageCBT = averageCBT/10;
   averageTT = averageTT/10;
   averageWT = averageWT/10;
+  for(int i=0;i<10;i++)
+	printf(0,"Child num[%d] --> CBT= %d,TT= %d, WT=%d \n",(i+1),CBT[i],TT[i],WT[i]);
+  printf(1,"Average CBT= %d, Average TT= %d, Average WT= %d\n",averageCBT,averageTT,averageWT);
+  exit();
 }
